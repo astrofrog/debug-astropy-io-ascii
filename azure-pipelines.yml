@@ -98,7 +98,7 @@ jobs:
       $HOME/pythondev/bin/pip3 install pytest
     displayName: Installing CPython
 
-  - script: $HOME/pythondev/bin/pip3 install git+https://github.com/cython/cython
+  - script: $HOME/pythondev/bin/pip3 install git+https://github.com/cython/cython || $HOME/pythondev/bin/pip3 install git+https://github.com/astrofrog/cython
     displayName: Installing Cython
 
   - script: $HOME/pythondev/bin/pip3 install git+https://github.com/numpy/numpy
