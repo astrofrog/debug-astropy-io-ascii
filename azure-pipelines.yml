@@ -1,0 +1,35 @@
+jobs:
+- job: Debug
+  pool:
+      vmImage: macOS 10.13
+  strategy:
+    matrix:
+      3b5deb01:
+        cpython_commit: 3b5deb01
+
+  steps:
+
+  - script: |
+      brew install openssl
+      git clone https://github.com/python/cpython
+      cd cpython
+      git checkout $(cpython_commit)
+      ./configure --prefix=$HOME/pythondev --with-openssl=/usr/local/Cellar/openssl/1.0.2r
+      make
+      make install
+      $HOME/pythondev/bin/pip3 install pytest
+    displayName: Installing CPython
+
+  - script: $HOME/pythondev/bin/pip3 install git+https://github.com/cython/cython
+    displayName: Installing Cython
+
+  - script: $HOME/pythondev/bin/pip3 install git+https://github.com/numpy/numpy
+    displayName: Installing Numpy
+
+  - script: |
+      git clone https://github.com/astrofrog/astropy
+      cd astropy
+      git checkout fix-io-ascii-38
+      $HOME/pythondev/bin/pip3 install -e .[test]
+      $HOME/pythondev/bin/python3 -m pytest astropy/io/ascii
+    displayName: Installing Numpy
