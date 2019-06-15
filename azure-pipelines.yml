@@ -88,11 +88,11 @@ jobs:
   steps:
 
   - script: |
-      brew install openssl
+      brew install openssl@1.1
       git clone https://github.com/python/cpython
       cd cpython
       git checkout $(cpython_commit)
-      ./configure --prefix=$HOME/pythondev --with-openssl=/usr/local/Cellar/openssl/1.0.2r
+      ./configure --prefix=$HOME/pythondev --with-openssl=/usr/local/Cellar/openssl@1.1/1.1.1c
       make
       make install
       $HOME/pythondev/bin/pip3 install pytest
