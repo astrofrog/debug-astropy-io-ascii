@@ -6,76 +6,76 @@ jobs:
     matrix:
       3b5deb01:
         cpython_commit: 3b5deb01
-      # ed222a74:
-      #   cpython_commit: ed222a74
-      # aaf47caf:
-      #   cpython_commit: aaf47caf
-      # 7c59362a:
-      #   cpython_commit: 7c59362a
-      # e2500610:
-      #   cpython_commit: e2500610
-      # 709d23de:
-      #   cpython_commit: 709d23de
-      # 39baace6:
-      #   cpython_commit: 39baace6
-      # d914596a:
-      #   cpython_commit: d914596a
-      # da084704:
-      #   cpython_commit: da084704
-      # 0c9258a6:
-      #   cpython_commit: 0c9258a6
-      # b7272395:
-      #   cpython_commit: b7272395
-      # 11fa0e48:
-      #   cpython_commit: 11fa0e48
-      # 4c70d9f7:
-      #   cpython_commit: 4c70d9f7
-      # 58159ef8:
-      #   cpython_commit: 58159ef8
-      # 44a79cc5:
-      #   cpython_commit: 44a79cc5
-      # 2eb6ad85:
-      #   cpython_commit: 2eb6ad85
-      # 163403a6:
-      #   cpython_commit: 163403a6
-      # 0d12672b:
-      #   cpython_commit: 0d12672b
-      # b08746bf:
-      #   cpython_commit: b08746bf
-      # 24477735:
-      #   cpython_commit: 24477735
-      # 79d21331:
-      #   cpython_commit: 79d21331
-      # 17b1d5d4:
-      #   cpython_commit: 17b1d5d4
-      # 01e0afa9:
-      #   cpython_commit: 01e0afa9
-      # 39487196:
-      #   cpython_commit: 39487196
-      # 7c4ab2af:
-      #   cpython_commit: 7c4ab2af
-      # d145775b:
-      #   cpython_commit: d145775b
-      # bc9aa813:
-      #   cpython_commit: bc9aa813
-      # 66ecefcf:
-      #   cpython_commit: 66ecefcf
-      # 7e0d882a:
-      #   cpython_commit: 7e0d882a
-      # 941ec210:
-      #   cpython_commit: 941ec210
-      # 4857543a:
-      #   cpython_commit: 4857543a
-      # ddbe9769:
-      #   cpython_commit: ddbe9769
-      # d1c82c5c:
-      #   cpython_commit: d1c82c5c
-      # d7aed410:
-      #   cpython_commit: d7aed410
-      # 3fb813d2:
-      #   cpython_commit: 3fb813d2
-      # 84521047:
-      #   cpython_commit: 84521047
+      ed222a74:
+        cpython_commit: ed222a74
+      aaf47caf:
+        cpython_commit: aaf47caf
+      7c59362a:
+        cpython_commit: 7c59362a
+      e2500610:
+        cpython_commit: e2500610
+      709d23de:
+        cpython_commit: 709d23de
+      39baace6:
+        cpython_commit: 39baace6
+      d914596a:
+        cpython_commit: d914596a
+      da084704:
+        cpython_commit: da084704
+      0c9258a6:
+        cpython_commit: 0c9258a6
+      b7272395:
+        cpython_commit: b7272395
+      11fa0e48:
+        cpython_commit: 11fa0e48
+      4c70d9f7:
+        cpython_commit: 4c70d9f7
+      58159ef8:
+        cpython_commit: 58159ef8
+      44a79cc5:
+        cpython_commit: 44a79cc5
+      2eb6ad85:
+        cpython_commit: 2eb6ad85
+      163403a6:
+        cpython_commit: 163403a6
+      0d12672b:
+        cpython_commit: 0d12672b
+      b08746bf:
+        cpython_commit: b08746bf
+      24477735:
+        cpython_commit: 24477735
+      79d21331:
+        cpython_commit: 79d21331
+      17b1d5d4:
+        cpython_commit: 17b1d5d4
+      01e0afa9:
+        cpython_commit: 01e0afa9
+      39487196:
+        cpython_commit: 39487196
+      7c4ab2af:
+        cpython_commit: 7c4ab2af
+      d145775b:
+        cpython_commit: d145775b
+      bc9aa813:
+        cpython_commit: bc9aa813
+      66ecefcf:
+        cpython_commit: 66ecefcf
+      7e0d882a:
+        cpython_commit: 7e0d882a
+      941ec210:
+        cpython_commit: 941ec210
+      4857543a:
+        cpython_commit: 4857543a
+      ddbe9769:
+        cpython_commit: ddbe9769
+      d1c82c5c:
+        cpython_commit: d1c82c5c
+      d7aed410:
+        cpython_commit: d7aed410
+      3fb813d2:
+        cpython_commit: 3fb813d2
+      84521047:
+        cpython_commit: 84521047
 
   steps:
 
